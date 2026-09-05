@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace Cli.Net.Core.LocalSettings;
 
-file record EntryData(string Key, string Json, string TypeName);
+file sealed record EntryData(string Key, string Json, string TypeName);
 
 public sealed class LocalFileSettingsProvider(string filePath) : ILocalSettingsProvider
 {
