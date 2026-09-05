@@ -1,4 +1,4 @@
-namespace Cli.Net.Core;
+namespace Cli.Net.Core.Parse;
 
 public readonly ref struct ParsedArgument
 {
